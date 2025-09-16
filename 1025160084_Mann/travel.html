@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to the Amalfi Coast</title>
+  <style>
+    :root{
+      --primary:#1b3a4b;
+      --accent:#ffb347;
+      --text:#fff;
+      --muted:#dce3e8;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+    body{
+      margin:0;
+      background:linear-gradient(180deg, #0d2538 0%, #1b3a4b 100%);
+      color:var(--text);
+    }
+    header{
+      background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+      min-height:60vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:#fff;
+    }
+    header h1{
+      font-size:3rem;
+      background:rgba(0,0,0,0.4);
+      padding:1rem 2rem;
+      border-radius:12px;
+    }
+    main{
+      max-width:1000px;
+      margin:auto;
+      padding:2rem;
+    }
+    section{
+      margin-bottom:2.5rem;
+    }
+    h2{
+      color:var(--accent);
+      margin-bottom:0.5rem;
+    }
+    p{
+      line-height:1.6;
+      color:var(--muted);
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+      gap:1rem;
+      margin-top:1rem;
+    }
+    .gallery img{
+      width:100%;
+      border-radius:10px;
+      object-fit:cover;
+      height:200px;
+    }
+    footer{
+      text-align:center;
+      padding:1rem;
+      background:rgba(255,255,255,0.05);
+      color:var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Amalfi Coast</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Ethnicity & Culture</h2>
+      <p>
+        The Amalfi Coast is a living mosaic of southern Italy’s rich heritage. Its people are primarily Italian, 
+        with centuries of Greek, Roman, and Arabic influence shaping language, architecture, and cuisine. 
+        Local festivals celebrate ancient maritime traditions, and music ranges from folk tarantellas to modern Italian ballads.
+      </p>
+    </section>
+    <section>
+      <h2>Diversity & Hospitality</h2>
+      <p>
+        From fishermen in pastel villages to artisans crafting hand-painted ceramics, diversity thrives in daily life. 
+        Visitors will encounter a welcoming community proud of its multi-layered history and eager to share homemade 
+        limoncello, fresh seafood, and stories of the sea.
+      </p>
+    </section>
+    <section>
+      <h2>Why Tourists Love Amalfi</h2>
+      <p>
+        Dramatic cliffs plunge into turquoise waters, medieval churches guard winding alleys, and lemon groves scent 
+        the Mediterranean breeze. Whether you cruise the coastline, hike the Path of the Gods, or sip espresso on a sun-drenched terrace, 
+        every moment feels like a postcard come alive.
+      </p>
+      <div class="gallery">
+        <img src="download.jpg">
+        <img src="download (1).jpg" alt="Cliffside view">
+        <img src="download (2).jpg" alt="Lemon groves">
+      </div>
+    </section>
+    <section>
+      <h2>Plan Your Visit</h2>
+      <p>
+        Best season: Late spring to early autumn for warm weather and vibrant local festivals.
+        Fly into Naples International Airport, then enjoy a scenic drive or ferry ride to Amalfi’s heart.
+      </p>
+    </section>
+  </main>
+  <footer>
+    © 2025 Amalfi Coast Tourism Board (demo page)
+  </footer>
+</body>
+</html>
